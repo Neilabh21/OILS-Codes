@@ -1,0 +1,235 @@
+
+USART Test.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         0000025c  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00802000  00802000  000002b0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  000002b0  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  000002e0  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000030  00000000  00000000  00000320  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00003544  00000000  00000000  00000350  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000321b  00000000  00000000  00003894  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000505  00000000  00000000  00006aaf  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000044  00000000  00000000  00006fb4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00002491  00000000  00000000  00006ff8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_ranges 00000020  00000000  00000000  00009489  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 fe 00 	jmp	0x1fc	; 0x1fc <__ctors_end>
+   4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+   8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+   c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  10:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  14:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  18:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  1c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  20:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  24:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  28:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  2c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  30:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  34:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  38:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  3c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  40:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  44:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  48:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  4c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  50:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  54:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  58:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  5c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  60:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  64:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  68:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  6c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  70:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  74:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  78:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  7c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  80:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  84:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  88:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  8c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  90:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  94:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  98:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  9c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  a0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  a4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  a8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  ac:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  b0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  b4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  b8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  bc:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  c0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  c4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  c8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  cc:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  d0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  d4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  d8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  dc:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  e0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  e4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  e8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  ec:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  f0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  f4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  f8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+  fc:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 100:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 104:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 108:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 10c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 110:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 114:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 118:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 11c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 120:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 124:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 128:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 12c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 130:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 134:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 138:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 13c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 140:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 144:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 148:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 14c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 150:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 154:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 158:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 15c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 160:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 164:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 168:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 16c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 170:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 174:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 178:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 17c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 180:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 184:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 188:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 18c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 190:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 194:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 198:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 19c:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1a0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1a4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1a8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1ac:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1b0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1b4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1b8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1bc:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1c0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1c4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1c8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1cc:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1d0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1d4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1d8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1dc:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1e0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1e4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1e8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1ec:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1f0:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1f4:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+ 1f8:	0c 94 0a 01 	jmp	0x214	; 0x214 <__bad_interrupt>
+
+000001fc <__ctors_end>:
+ 1fc:	11 24       	eor	r1, r1
+ 1fe:	1f be       	out	0x3f, r1	; 63
+ 200:	cf ef       	ldi	r28, 0xFF	; 255
+ 202:	cd bf       	out	0x3d, r28	; 61
+ 204:	df e3       	ldi	r29, 0x3F	; 63
+ 206:	de bf       	out	0x3e, r29	; 62
+ 208:	00 e0       	ldi	r16, 0x00	; 0
+ 20a:	0c bf       	out	0x3c, r16	; 60
+ 20c:	0e 94 26 01 	call	0x24c	; 0x24c <main>
+ 210:	0c 94 2c 01 	jmp	0x258	; 0x258 <_exit>
+
+00000214 <__bad_interrupt>:
+ 214:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000218 <USARTXInit>:
+
+#include <avr/io.h>
+
+void USARTXInit(void)
+{
+	PORTC_DIRSET=PIN3_bm;                                           //Setting TX pin of USARTC0 as output (PC3)
+ 218:	88 e0       	ldi	r24, 0x08	; 8
+ 21a:	80 93 41 06 	sts	0x0641, r24	; 0x800641 <__TEXT_REGION_LENGTH__+0x700641>
+	PORTC_DIRCLR=PIN2_bm;                                           //Setting RX pin of USARTC0 as input (PC2)
+ 21e:	84 e0       	ldi	r24, 0x04	; 4
+ 220:	80 93 42 06 	sts	0x0642, r24	; 0x800642 <__TEXT_REGION_LENGTH__+0x700642>
+	USARTC0_BAUDCTRLA=0x0C;                                         //BSEL should be 12 in decimal for selection of baud rate 9600 with given freq
+ 224:	8c e0       	ldi	r24, 0x0C	; 12
+ 226:	80 93 a6 08 	sts	0x08A6, r24	; 0x8008a6 <__TEXT_REGION_LENGTH__+0x7008a6>
+	USARTC0_BAUDCTRLB=0;                                            //BSCALE = 0
+ 22a:	10 92 a7 08 	sts	0x08A7, r1	; 0x8008a7 <__TEXT_REGION_LENGTH__+0x7008a7>
+	USARTC0_CTRLC=(USART_CHSIZE_8BIT_gc)|(USART_PMODE_DISABLED_gc); //8 bit transmission in one data frame, no parity and one stop bit
+ 22e:	83 e0       	ldi	r24, 0x03	; 3
+ 230:	80 93 a5 08 	sts	0x08A5, r24	; 0x8008a5 <__TEXT_REGION_LENGTH__+0x7008a5>
+	USARTC0_CTRLB=(USART_RXEN_bm)|(USART_TXEN_bm);                  //Enabling the transmitter and receiver channels of USARTC0
+ 234:	88 e1       	ldi	r24, 0x18	; 24
+ 236:	80 93 a4 08 	sts	0x08A4, r24	; 0x8008a4 <__TEXT_REGION_LENGTH__+0x7008a4>
+ 23a:	08 95       	ret
+
+0000023c <USARTXTrans>:
+}
+
+void USARTXTrans(uint8_t dat)
+{
+	while(!(USARTC0_STATUS & USART_DREIF_bm));                      //While data register empty interrupt flag is not high, wait
+ 23c:	e1 ea       	ldi	r30, 0xA1	; 161
+ 23e:	f8 e0       	ldi	r31, 0x08	; 8
+ 240:	90 81       	ld	r25, Z
+ 242:	95 ff       	sbrs	r25, 5
+ 244:	fd cf       	rjmp	.-6      	; 0x240 <USARTXTrans+0x4>
+	USARTC0_DATA=dat;                                               //Writing the desired value into the transmit buffer register
+ 246:	80 93 a0 08 	sts	0x08A0, r24	; 0x8008a0 <__TEXT_REGION_LENGTH__+0x7008a0>
+ 24a:	08 95       	ret
+
+0000024c <main>:
+
+int main(void)
+{
+    /* Replace with your application code */
+	
+	USARTXInit();
+ 24c:	0e 94 0c 01 	call	0x218	; 0x218 <USARTXInit>
+	
+    while (1) 
+    {
+		USARTXTrans('a');
+ 250:	81 e6       	ldi	r24, 0x61	; 97
+ 252:	0e 94 1e 01 	call	0x23c	; 0x23c <USARTXTrans>
+ 256:	fc cf       	rjmp	.-8      	; 0x250 <main+0x4>
+
+00000258 <_exit>:
+ 258:	f8 94       	cli
+
+0000025a <__stop_program>:
+ 25a:	ff cf       	rjmp	.-2      	; 0x25a <__stop_program>
